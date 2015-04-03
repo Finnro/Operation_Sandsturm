@@ -1,6 +1,8 @@
-//INTRO 
+//INTRO
 plname = call BIS_fnc_playerName;
 rtext = ("Willkommen " + plname);
+
+
 rtext_1 = ("Operation Sandsturm Version 0.5.1");
 rtext_2 = ("Map Edit by Blackeagle");
 rtext_3 = ("Script Edit by Luku");
@@ -23,7 +25,7 @@ sleep 5;
 titleCut ["", "WHITE IN", 8]; 
 sleep 1;
 11 fadeMusic 0;
-//INTRO END
+//Intro END
 removebackpack sani_1;
 removebackpack sani_2;
 removebackpack sani_3;
