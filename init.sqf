@@ -261,6 +261,4 @@ medevac_8 addItemCargoGlobal ["cse_tourniquet",50];
 
 sleep 5;
 
-
-
 exitWith {};
