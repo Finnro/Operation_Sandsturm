@@ -24,9 +24,7 @@ titleCut ["", "WHITE IN", 8];
 sleep 1;
 11 fadeMusic 0;
 //INTRO END
-removebackpack sani_1;
-removebackpack sani_2;
-removebackpack sani_3;
+
 sleep 5;
 
 [player] execVM "simpleEP.sqf";
@@ -36,75 +34,6 @@ sleep 5;
 [player] execVM "Sonstiges.sqf";
 [player] execVM "loadout.sqf";
 sleep 5;
-sani_1 addbackpack "BWA3_AssaultPack_Medic";
-clearItemCargoGlobal (unitBackpack sani_1);
-clearWeaponCargoGlobal (unitBackpack sani_1);
-clearMagazineCargoGlobal (unitBackpack sani_1); 
-(unitBackpack sani_1)addItemCargoGlobal ["cse_personal_aid_kit",5];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_bandage_basic",20];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_bandageElastic",20];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_quickclot",20];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_packing_bandage",20];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_morphine",15];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_atropine",15];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_epinephrine",15];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_saline_iv_500",10];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_splint",5];
-(unitBackpack sani_1)addItemCargoGlobal ["cse_tourniquet",8];
-
-sleep 5;
-
-sani_2 addbackpack "BWA3_AssaultPack_Medic";
-clearItemCargoGlobal (unitBackpack sani_2);
-clearWeaponCargoGlobal (unitBackpack sani_2);
-clearMagazineCargoGlobal (unitBackpack sani_2); 
-(unitBackpack sani_2)addItemCargoGlobal ["cse_personal_aid_kit",5];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_bandage_basic",20];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_bandageElastic",20];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_quickclot",20];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_packing_bandage",20];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_morphine",15];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_atropine",15];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_epinephrine",15];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_saline_iv_500",10];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_splint",5];
-(unitBackpack sani_2)addItemCargoGlobal ["cse_tourniquet",8];
-
-sleep 5;
-
-sani_3 addbackpack "BWA3_AssaultPack_Medic";
-clearItemCargoGlobal (unitBackpack sani_3);
-clearWeaponCargoGlobal (unitBackpack sani_3);
-clearMagazineCargoGlobal (unitBackpack sani_3); 
-(unitBackpack sani_3)addItemCargoGlobal ["cse_personal_aid_kit",5];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_bandage_basic",20];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_bandageElastic",20];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_quickclot",20];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_packing_bandage",20];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_morphine",15];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_atropine",15];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_epinephrine",15];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_saline_iv_500",10];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_splint",5];
-(unitBackpack sani_3)addItemCargoGlobal ["cse_tourniquet",8];
-
-sleep 5;
-
-sani_4 addbackpack "BWA3_AssaultPack_Medic";
-clearItemCargoGlobal (unitBackpack sani_4);
-clearWeaponCargoGlobal (unitBackpack sani_4);
-clearMagazineCargoGlobal (unitBackpack sani_4); 
-(unitBackpack sani_4)addItemCargoGlobal ["cse_personal_aid_kit",5];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_bandage_basic",20];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_bandageElastic",20];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_quickclot",20];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_packing_bandage",20];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_morphine",15];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_atropine",15];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_epinephrine",15];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_saline_iv_500",10];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_splint",5];
-(unitBackpack sani_4)addItemCargoGlobal ["cse_tourniquet",8];
 
 sleep 5;
 clearItemCargoGlobal  medevac_1;
