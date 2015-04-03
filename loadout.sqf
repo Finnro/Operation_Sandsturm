@@ -7,8 +7,8 @@ switch (_spielerklasse) do
 	///////////////////////////////////
 	////      Sanitäter Loadout    ////
 	///////////////////////////////////
-	case "B_soldier_M_F": {
-		sleep 10;
+	case "BWA3_CombatLifeSaver_Tropen": {
+		sleep 3;
 		removeBackpack player;
 		player addBackpack "BWA3_AssaultPack_Medic";
 		clearItemCargoGlobal (unitBackpack player);

@@ -2980,7 +2980,6 @@ class Mission
 					vehicle="BWA3_CombatLifeSaver_Tropen";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="sani_2";
 					syncId=36;
 					synchronizations[]={54};
 				};
@@ -3550,7 +3549,6 @@ class Mission
 					vehicle="BWA3_CombatLifeSaver_Tropen";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="sani_1";
 					syncId=52;
 					synchronizations[]={54};
 				};
@@ -4099,10 +4097,9 @@ class Mission
 					id=159;
 					side="WEST";
 					vehicle="BWA3_CombatLifeSaver_Tropen";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
-					text="sani_3";
 					syncId=58;
 					synchronizations[]={54};
 				};
