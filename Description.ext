@@ -1,4 +1,3 @@
-
 respawn = 2;
 respawnDelay = 5;
 respawnDialog = true;
