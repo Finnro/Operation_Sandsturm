@@ -35,10 +35,7 @@ sleep 5;
 [player] execVM "Rucksaecke.sqf";
 [player] execVM "Sonstiges.sqf";
 [player] execVM "loadout.sqf";
-
 sleep 5;
-
-
 sani_1 addbackpack "BWA3_AssaultPack_Medic";
 clearItemCargoGlobal (unitBackpack sani_1);
 clearWeaponCargoGlobal (unitBackpack sani_1);
