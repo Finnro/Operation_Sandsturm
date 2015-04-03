@@ -1,8 +1,6 @@
 //INTRO 
 plname = call BIS_fnc_playerName;
 rtext = ("Willkommen " + plname);
-
-
 rtext_1 = ("Operation Sandsturm Version 0.5.1");
 rtext_2 = ("Map Edit by Blackeagle");
 rtext_3 = ("Script Edit by Luku");
