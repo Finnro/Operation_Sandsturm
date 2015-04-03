@@ -184,7 +184,3 @@ medevac_8 addItemCargoGlobal ["cse_blood_iv_500",100];
 medevac_8 addItemCargoGlobal ["cse_plasma_iv_500_iv_500",100];
 medevac_8 addItemCargoGlobal ["cse_splint",50];
 medevac_8 addItemCargoGlobal ["cse_tourniquet",50];
-
-sleep 5;
-
-exitWith {};
