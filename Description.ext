@@ -1,0 +1,14 @@
+
+respawn = 2;
+respawnDelay = 5;
+respawnDialog = true;
+disabledAI = 1;
+class CfgMusic
+{
+	class Intro
+	{
+		name = "Intro";
+		sound[] = {"strikeback.ogg",db+10, 1.0};
+	};
+};
+
