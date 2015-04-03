@@ -3597,7 +3597,7 @@ class Mission
 					id=145;
 					side="WEST";
 					vehicle="BWA3_SniperG82_Tropen";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -4097,7 +4097,7 @@ class Mission
 					id=159;
 					side="WEST";
 					vehicle="BWA3_CombatLifeSaver_Tropen";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					syncId=58;

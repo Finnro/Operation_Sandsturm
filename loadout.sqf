@@ -8,8 +8,9 @@ switch (_spielerklasse) do
 	////      Sanitäter Loadout    ////
 	///////////////////////////////////
 	case "BWA3_CombatLifeSaver_Tropen": {
-		sleep 3;
 		removeBackpack player;
+		player addItem "b_itemGPS_FT";
+		player assignItem "b_itemGPS_FT";
 		player addBackpack "BWA3_AssaultPack_Medic";
 		clearItemCargoGlobal (unitBackpack player);
 		clearWeaponCargoGlobal (unitBackpack player);
@@ -26,6 +27,17 @@ switch (_spielerklasse) do
 		(unitBackpack player)addItemCargoGlobal ["cse_splint",5];
 		(unitBackpack player)addItemCargoGlobal ["cse_tourniquet",8];		
 		};
-	};
+	case "BWA3_SL_Tropen": {
+		player addItem "b_itemLAPTOP_FT";
+		player assignItem "b_itemLAPTOP_FT";
+        };
+    case "BWA3_TL_Tropen": {
+		player addItem "b_itemLAPTOP_FT";
+		player assignItem "b_itemLAPTOP_FT";
+        };
+    default {
+        player addItem "b_itemGPS_FT";
+		player assignItem "b_itemGPS_FT"
+    };
 };
 
