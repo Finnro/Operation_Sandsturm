@@ -29,9 +29,6 @@ sleep 5;
 
 [player] execVM "simpleEP.sqf";
 [player] execVM "va.sqf";
-[player] execVM "Granaten.sqf";
-[player] execVM "Rucksaecke.sqf";
-[player] execVM "Sonstiges.sqf";
 [player] execVM "loadout.sqf";
 sleep 5;
 
