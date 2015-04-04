@@ -1,3 +1,7 @@
+onLoadMission = "Operation Sandsturm Version 0.5.2";
+onLoadIntro = "Version 0.5.2";
+author = "BlackEagle & Luku";
+enableDebugConsole = 1;
 respawn = 2;
 respawnDelay = 5;
 respawnDialog = true;
